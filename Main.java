@@ -53,6 +53,7 @@ class Main {
   }
 
   public static void option4Helper(Scanner hiImSpongebob){
+    System.out.println("Current Students:");
     while(hiImSpongebob.hasNextLine()){
       System.out.println(hiImSpongebob.nextLine());
     }
